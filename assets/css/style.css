@@ -125,7 +125,7 @@ aside .sidebar {
   top: 1rem;
 }
 aside h3 {
-  font-weight: 500;
+  font-weight: 400;
 }
 aside .sidebar a {
   display: flex;
@@ -137,3 +137,37 @@ aside .sidebar a {
   transition: all 0.1s ease-in;
 }
 
+aside .sidebar a span {
+  font-size: 1.6rem;
+  transition: all 0.1s ease-in;
+}
+aside .sidebar a:last-child {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+aside .sidebar a.active {
+  background: var(--clr-light);
+  color: var(--clr-primary);
+  margin-left: 0;
+  /* border-left: 5px solid var(--clr-primary); */
+}
+aside .sidebar a.active::before {
+  content: "";
+  width: 6px;
+  height: 100%;
+  background-color: var(--clr-primary);
+}
+aside .sidebar a:hover {
+  color: var(--clr-primary);
+}
+aside .sidebar a:hover span {
+  margin-left: 1rem;
+}
+aside .sidebar a span.msg_count {
+  background: var(--clr-danger);
+  color: var(--clr-white);
+  padding: 2px 5px;
+  font-size: 11px;
+  border-radius: var(--border-radius-1);
+}
