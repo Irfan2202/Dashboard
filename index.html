@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- aside -->
       <aside>
         <div class="top">
           <div class="logo">
@@ -21,7 +22,7 @@
             <i class="ri-close-line"></i>
           </div>
         </div>
-
+        <!-- sidebar -->
         <div class="sidebar">
           <a href="#">
             <span>
@@ -80,8 +81,111 @@
           </a>
         </div>
       </aside>
+
+      <!-- main -->
       <main>
-        <h1>main</h1>
+        <h1>Dashboard</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <!-- Insight -->
+        <div class="insights">
+          <!-- selling -->
+          <div class="sales">
+            <span><i class="ri-line-chart-fill"></i></span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$25.031</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle r="30" cy="40" cx="40"></circle>
+                </svg>
+                <div class="number">80%</div>
+              </div>
+            </div>
+            <small>Last 24 Hours</small>
+          </div>
+          <!-- expenses -->
+          <div class="expenses">
+            <span><i class="ri-shopping-bag-fill"></i></span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total expenses</h3>
+                <h1>$25.031</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle r="30" cy="40" cx="40"></circle>
+                </svg>
+                <div class="number">80%</div>
+              </div>
+            </div>
+            <small>Last 24 Hours</small>
+          </div>
+          <!-- Income -->
+          <div class="income">
+            <span><i class="ri-line-chart-fill"></i></span>
+            <div class="middle">
+              <div class="left">
+                <h3>Income</h3>
+                <h1>$25.031</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle r="30" cy="40" cx="40"></circle>
+                </svg>
+                <div class="number">80%</div>
+              </div>
+            </div>
+            <small>Last 24 Hours</small>
+          </div>
+        </div>
+        <!-- recent order -->
+        <div class="recent_order">
+          <h1>Recent Orders</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payments</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mini USB</td>
+                <td>456</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Mini USB</td>
+                <td>456</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Mini USB</td>
+                <td>456</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Mini USB</td>
+                <td>456</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </main>
       <section class="right">
         <h1>right</h1>
