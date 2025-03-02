@@ -510,7 +510,7 @@ main .products a {
   .add-products {
     padding: 20px;
   }
-  #menu-bar {
+  #menu-btn {
     display: inline-block;
     background: transparent;
     cursor: pointer;
