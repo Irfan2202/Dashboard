@@ -471,6 +471,7 @@ main .products a {
     position: absolute;
     margin-right: 30px;
     font-size: 35px;
+     margin-top: -10px;
   }
   .right .top {
     position: fixed;
